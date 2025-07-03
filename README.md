@@ -171,17 +171,7 @@ For testing purposes, use these demo accounts:
 4. Token validates subsequent requests
 5. Automatic token refresh handling
 
-### Access Control Matrix
 
-| Feature | User | Manager | Admin |
-|---------|------|---------|-------|
-| Upload Files | ✅ | ✅ | ✅ |
-| Download Own Files | ✅ | ✅ | ✅ |
-| View All Files | ❌ | ✅ | ✅ |
-| User Management | ❌ | ✅ | ✅ |
-| Security Settings | ✅ | ✅ | ✅ |
-| Audit Logs | ❌ | ❌ | ✅ |
-| System Configuration | ❌ | ❌ | ✅ |
 
 ## 📊 API Documentation
 
@@ -265,24 +255,11 @@ For testing purposes, use these demo accounts:
 - Lazy loading components
 - Efficient file chunking
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
 
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review audit logs for security events
 
 ## 🚀 Production Deployment
 
